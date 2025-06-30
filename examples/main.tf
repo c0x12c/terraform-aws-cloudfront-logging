@@ -40,7 +40,7 @@ module "cloudfront_logging" {
 
 module "cloudfront_log_bucket" {
   source  = "c0x12c/s3/aws"
-  version = "0.4.0"
+  version = "1.0.0"
 
   bucket_name = "cloudfront-log-bucket"
 }
