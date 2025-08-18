@@ -1,6 +1,6 @@
 module "static_website" {
   source  = "c0x12c/static-website/aws"
-  version = "0.7.1"
+  version = "1.0.0"
 
   name              = "example"
   bucket_prefix     = "example"
@@ -40,7 +40,7 @@ module "cloudfront_logging" {
 
 module "cloudfront_log_bucket" {
   source  = "c0x12c/s3/aws"
-  version = "1.0.0"
+  version = "1.1.0"
 
   bucket_name = "cloudfront-log-bucket"
 }
