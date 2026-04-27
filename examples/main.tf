@@ -1,6 +1,6 @@
 module "static_website" {
   source  = "c0x12c/static-website/aws"
-  version = "1.0.0"
+  version = "1.1.1"
 
   name              = "example"
   bucket_prefix     = "example"
